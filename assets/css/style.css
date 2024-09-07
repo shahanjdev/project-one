@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;  
+}
+ul li a{
+    
+    white-space: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 55px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 237, 243);
+}
+.container{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(48, 202, 207);
+}
+.para{
+    color: white;
+    padding: 20px;
+    padding-left: 200px;
+   padding-top: 70px;
+}
+.pic img{
+    padding-right: 50px;  
+}
+.button{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+   border: 2px solid white;
+   margin: 20px;
+    background-color: rgb(48, 202, 207);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 20px;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: rgb(235, 15, 143);
+
+}
+
+.button1{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+   border: 2px solid white;
+   margin: 20px;
+    background-color: rgb(235, 15, 143);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 20px;
+    border-radius: 8px;
+}
+.grid{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 70px;
+}
+.item1{
+    border: 2px solid rgb(214, 214, 245);
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-radius: 8px;
+    box-shadow: 20px;
+    background-color: white;
+
+}.item1 img{
+    justify-items: center;
+    padding-left: 50px;
+}
+.item2{
+    background-color: rgb(217, 217, 230);
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    height: 400px;
+    width: 100%;
+}
+.pic1 img{
+    padding-left: 100px;
+    border-radius: 8px ;
+
+}
+.find{
+    padding-left: 150px;
+
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(166, 166, 223);
+
+}
+.icon{
+   font-size: 40px;
+   background-color: deeppink;
+   color: white;
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   padding-top: 30px;
+   border-radius: 12px;
+}
+.icon1{
+    font-size: 40px;
+    background-color: rgb(59, 62, 236);
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 12px;
+
+}
+.icon2{
+    font-size: 40px;
+    background-color: rgb(77, 74, 235);
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+.icon-all{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    
+}
+.icon0{
+    padding: 20px;
+    padding-top: 20px;
+    height: 400px;
+    width: 350px;
+    margin-left: 50px;
+
+}
+.icon00{
+    padding: 20px;
+    padding-top: 20px;
+    height: 400px;
+    width: 350px;
+
+}
+.icon00{
+    padding: 20px;
+    padding-top: 20px;
+    height: 400px;
+    width: 350px;
+    padding-right: 30px;
+
+}
+.icon-para{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+.ger{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 90px;
+}
+.globe{
+    font-size: 50px;
+    color: rgb(224, 47, 47);
+}
+.globe1{
+    font-size: 50px;
+    color: rgb(67, 17, 204);
+}
+.get-button{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+   border: 2px solid white;
+   margin: 20px;
+    background-color: rgb(235, 15, 143);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 20px;
+    border-radius: 8px;
+    justify-items: center;
+    margin-left: 700px;
+
+}
+.yourcard{
+    display: flex;
+    gap: 200px;
+    margin: 30px;
+    height: 500px;
+    background-color: rgb(244, 244, 248);
+}
+.insu1{
+    padding: 20px;
+    margin-left: 90px;
+    width: 600px;
+    padding-top: 80px;
+
+}
+.insu{
+    margin-right: 100px;
+}
+.frequentiy{
+    margin: 120px;
+   margin-right: 150px;
+    
+
+}
+.hand img{
+    border-radius: 50%;
+
+}
+.hand{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    width: 1000px;
+    margin-left: 150px;
+    height: 500px;
+}
+.cir img{
+    margin-top: 40px;
+    width: 300px;
+}
+.footer{
+   background-color: rgb(53, 128, 199);
+   color: white;
+   text-align: center;
+   padding: 50px;
+}
+
+
+
+
